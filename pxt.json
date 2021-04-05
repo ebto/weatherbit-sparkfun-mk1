@@ -1,0 +1,24 @@
+{
+    "name": "weather:bit sparkfun mk1",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "weatherbit": "github:sparkfun/pxt-weather-bit#v0.0.19",
+        "BME280": "github:makecode-extensions/bme280#v1.1.0",
+        "Grove": "github:seeed-studio/pxt-grove#v0.5.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
